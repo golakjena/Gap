@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+		/>
+		<title>Gap</title>
+		<link rel="stylesheet" href="css/base.css" />
+		<link rel="stylesheet" href="css/global.css" />
+		<link rel="stylesheet" href="css/responsive.css" />
+	</head>
+	<body>
+		<div class="menuContainer">
+			<div class="menuContainer__left">
+				<ul class="topNav">
+					<li><a class="active" href="index.html">Home</a></li>
+					<li><a href="about-us.html">About us</a></li>
+					<li><a href="services.html">Services</a></li>
+					<li><a href="our-hotels.html">Our Hotels</a></li>
+					<li><a href="awards.html">Awards</a></li>
+					<li><a href="careers.html">Careers</a></li>
+					<li><a href="contact-us.html">Contact us</a></li>
+				</ul>
+			</div>
+			<div class="menuContainer__right">
+				<div class="menuBtn__top">
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+				<div class="menuBtn__bottom">
+					<span>MENU</span>
+				</div>
+			</div>
+		</div>
+		<section class="homeBanner">
+			<div class="homeBanner__inner">
+				<h1 class="logo">
+					<a href="index.html"><img src="./images/logo@2x.png" alt=""/></a>
+				</h1>
+				<h2>We possesses a fundamental commitment to superior quality and service.</h2>
+				<p><a href="about-us.html" class="btnLearnMore">Learn More</a></p>
+			</div>
+		</section>
+		<section class="welcomeSection">
+			<div class="wrapper">
+				<h2>
+					<span>Welcome<br />
+					to Gap Hotel</span>
+				</h2>
+				<div class="welcomeCont">
+					<div class="welcomeLeft" data-aos="fade-right">
+						<div class="welcomeLeft__imgCont">
+							<img src="./images/welcome.jpg" alt="" />
+						</div>
+					</div>
+					<div class="welcomeRight" data-aos="fade-left">
+						<p>
+							<span class="bigText">At</span> Gap Management, it is our pleasure and duty to
+							provide our guests, clients and associates with the highest form of quality in
+							lodging, management, training and products. Because Gap Management is committed
+							to providing our guests with genuine hospitality service that exceeds our
+							guest’s expectations, our guests keep coming back thanks to our friendly
+							associates and efficient service. We believe in reinvesting in our properties so
+							at each of our hotels you can expect well-maintained and nicely-appointed
+							amenities and facilities. Gap Management is a hotel management and development
+							company that provides total integration of management and development. Our
+							philosophy is based on diversity of markets, investors, products and
+							associates.We currently own and operate numerous hotels in Louisiana and Texas.
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="ourMission">
+			<div class="wrapper">
+				<h2><span>OUR MISSION</span></h2>
+				<div class="ourMissionCont">
+					<div class="ourMissionCont__left" data-aos="fade-left">
+						<p>
+							<span class="bigText">Our</span> mission is to be a leader in the market by
+							providing our guests with exceptional service, motivating, educating and
+							rewarding our team members resulting in exceptional financial results. We at Gap
+							Management will develop, own and manage outstanding hotels primarily in the
+							South region, focusing on a commitment to exceptional value for its investors
+							while upholding the Gap reputation, pride, ethics and tradition.
+						</p>
+					</div>
+					<div class="ourMissionCont__right" data-aos="fade-right">
+						<div class="ourMissionCont__right--img">
+							<img src="./images/ourMission.png" alt="" />
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="bottomSection">
+			<div class="wrapper">
+				<div class="bottomSection__inner">
+					<span data-aos="fade-right"><img src="./images/footer-img1.jpg" alt=""/></span>
+					<span data-aos="zoom-in-up"><img src="./images/footer-img2.jpg" alt=""/></span>
+					<span data-aos="fade-left"><img src="./images/footer-img3.jpg" alt=""/></span>
+				</div>
+			</div>
+		</section>
+		<div class="footer">
+			<ul class="fooNav">
+				<li><a class="active" href="index.html">Home</a></li>
+				<li><a href="about-us.html">About us</a></li>
+				<li><a href="services.html">Services</a></li>
+				<li><a href="our-hotels.html">Our Hotels</a></li>
+				<li><a href="awards.html">Awards</a></li>
+				<li><a href="careers.html">Careers</a></li>
+				<li><a href="contact-us.html">Contact us</a></li>
+			</ul>
+			<div class="footerBar">
+				<p>© Copyright 2019. GAP Hotels. All rights reserved.</p>
+				<p>
+					Design & Developed By <a href="http://myriann.com/" target="_blank">Myriann</a>
+				</p>
+			</div>
+		</div>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<script src="js/common.js"></script>
+		<script src="js/aos.js"></script>
+		<script>
+			function detectmob() {
+				if (
+					navigator.userAgent.match(/Android/i) ||
+					navigator.userAgent.match(/webOS/i) ||
+					navigator.userAgent.match(/iPhone/i) ||
+					navigator.userAgent.match(/iPad/i) ||
+					navigator.userAgent.match(/iPod/i) ||
+					navigator.userAgent.match(/BlackBerry/i) ||
+					navigator.userAgent.match(/Windows Phone/i)
+				) {
+					return true;
+				} else {
+					return false;
+				}
+			}
+			if (!detectmob()) {
+				AOS.init({
+					offset: 150
+				});
+			}
+			if (!detectmob()) {
+				document.write('<link rel="stylesheet" href="css/aos.css" />');
+			}
+		</script>
+	</body>
+</html>

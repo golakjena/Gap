@@ -1,0 +1,262 @@
+@media (min-width:320px) and (max-width:767px){
+    .menuContainer{ top: 0; right: 0; transform: none;}
+    .menuBtn__bottom{ display: none;}
+    .menuContainer__right{ width: 60px;}
+    .menuContainer__left{ width: 300px; margin-right: -360px; border-radius: 0 0 0 6px;}
+    .menuContainer__left.open{ margin-right: -60px;}
+    .menuBtn__top{ padding: 0 15px; width: 60px; height: 60px; position: fixed; top: 0; right: 0;}
+    .menuBtn__top > span{ margin: 4px 0;}
+    .menuBtn__top.open > span:nth-child(1){ transform: rotate(45deg) translateX(13px); margin-left: -20px;}
+    .menuBtn__top.open > span:nth-child(3){ transform: rotate(-45deg) translateX(13px); margin-left: -20px;}
+    .menuBtn__bottom span{ font-size: 20px;}
+
+    .homeBanner__inner{ padding: 50px 20px;}
+    .logo{ margin-bottom: 50px;}
+    .logo a{ width: 130px;}
+    .homeBanner__inner h2{ font-size: 24px; line-height: 30px; margin-bottom: 50px;}
+    .welcomeSection{ padding: 30px 20px;}
+    .welcomeSection h2{ font-size: 22px; line-height: 28px; margin-bottom: 50px;}
+    .welcomeSection h2 span::after{ bottom: -15px;}
+    .welcomeCont{ flex-direction: column;}
+    .welcomeLeft{ width: 100%;}
+    .welcomeLeft__imgCont{ border: 0; padding: 0;}
+    .welcomeLeft__imgCont > img{ width: 100%;}
+    .welcomeLeft__imgCont::before, 
+    .welcomeLeft__imgCont::after{ display: none;}
+    .welcomeRight{ width: 100%; margin-top: 0; margin-left: 0; padding: 20px;}
+    .welcomeRight p{ font-size: 16px; line-height: 26px;}
+    .bigText{ font-size: 34px;}
+    .ourMission{ padding: 30px 20px;}
+    .ourMission h2{ font-size: 22px; line-height: 28px; margin-bottom: 50px;}
+    .ourMission h2 span::after{ bottom: -10px; height: 2px;}
+    .ourMissionCont{ flex-direction: column-reverse;}
+    .ourMissionCont__right{ width: 100%;}
+    .ourMissionCont__right--img{ padding: 0; border: 0;}
+    .ourMissionCont__right--img > img{ width: 100%;}
+    .ourMissionCont__right--img::before, .ourMissionCont__right--img::after{ display: none;}
+    .ourMissionCont__left{ width: 100%; padding: 20px; margin-top: 0;}
+    .ourMissionCont__left p{ font-size: 16px; line-height: 26px;}
+    .bottomSection{ padding: 30px 20px;}
+    .bottomSection__inner > span{ padding-top: 0; border: 0;}
+    .bottomSection__inner > span:nth-child(2){ padding: 0 15px;}
+    .bottomSection__inner > span:nth-child(2)::before, 
+    .bottomSection__inner > span:nth-child(2)::after{ display: none;}
+    .footer{ padding: 30px 10px;}
+    .fooNav{ display: none;}
+    .footerBar{ flex-direction: column; align-items: center; justify-content: center; text-align: center;}
+    .footerBar { font-size: 14px;}
+    .footerBar > p:first-child{ margin-bottom: 20px;}
+
+    .headerBanner{ height: auto;}
+    .headerBanner__inner{ padding: 0 20px 100px 20px;}
+    .innerLogo{ padding: 50px 0;}
+    .innerLogo a{ width: 130px;}
+    .headerBanner__inner h2{ font-size: 30px;}
+    .headerBanner__inner h2 span::after{ height: 2px; bottom: -5px;}
+    .aboutSection{ padding: 30px 20px;}
+    .aboutCont{ flex-direction: column;}
+    .aboutContLeft{ width: 100%;}
+    .aboutContLeft__imgCont{ padding: 0; border: 0;}
+    .aboutContLeft__imgCont > img{ width: 100%;}
+    .aboutContLeft__imgCont::before, 
+    .aboutContLeft__imgCont::after{ display: none;}
+    .aboutContRight{ width: 100%; padding: 20px; margin-top: 0; margin-left: 0;}
+    .aboutContRight p{ font-size: 16px; line-height: 26px;}
+    .philosophy{ padding: 30px 20px;}
+    .philosophy h2{ font-size: 22px; line-height: 28px; margin-bottom: 50px;}
+    .philosophy h2 span::after{ bottom: -10px; height: 2px;}
+    .philosofyRow{ margin-bottom: 50px; flex-direction: column;}
+    .philosofyRow.reverse{ flex-direction: column-reverse;}
+    .philosofyRow .philosofyRow__img{ margin-bottom: 30px;}
+    .philosofyRow__img > img{ width: 30%;}
+    .philosofyRow__content{ width: 100%;}
+    .philosofyRow__img{ flex: 1; width: 100%; text-align: center;}
+    .philosofyRow__img.alignRight{ text-align: center;}
+    .philosofyRow__content.alignRight{ text-align: left;}
+    .philosofyRow h3{ font-size: 28px; margin-bottom: 0;}
+    .philosofyRow p{ font-size: 16px; line-height: 26px;}
+    .ourTeam{ padding: 30px 20px;}
+    .ourTeam h2{ font-size: 22px; line-height: 28px; margin-bottom: 50px;}
+    .ourTeam h2 span::after{ bottom: -10px; height: 2px;}
+    .teamRow{ flex-direction: column; margin-bottom: 0;}
+    .teamCol{ width: 100%; margin-bottom: 30px;}
+    .teamCol__box::before,
+    .teamCol__box::after{ display: none;}
+    .teamCol__box{ height: 300px;}
+    .teamCol h4{ font-size: 16px;}
+    .teamCol h4 a::after{ border-width: 0 2px 2px 0; padding: 3px;}
+    .teamCol h5{ font-size: 14px;}
+    .partnerLogo{ padding: 30px 10px;}
+    .partnerLogo ul li{ margin: 0; padding: 0 5px;}
+
+    .hms{ padding: 30px 20px;}
+    .hms h2{ font-size: 22px; line-height: 28px; margin-bottom: 50px;}
+    .hms h2 span::after{ bottom: -10px; height: 2px;}
+    .hms__row{ flex-direction: column;}
+    .hms__row.reverse{ flex-direction: column-reverse;}
+    .hms__row__content{ width: 100%;}
+    .hms__row__icon{ flex: 1; width: 100%; margin-bottom: 30px;}
+    .hms__row__icon > img{ width: 30%;}
+    .hms__row__content h3{ font-size: 28px; margin-bottom: 0;}
+    .hms__row ul li{ font-size: 16px; margin-bottom: 10px;}
+    .serviceRow{ padding: 30px 20px;}
+    .hms__row__content.alignRight{ text-align: left;}
+    .htlDevServices{ padding: 30px 20px;}
+    .htlDevServices h2{ font-size: 22px; line-height: 28px; margin-bottom: 50px;}
+    .htlDevServices h2 span::after{ bottom: -10px; height: 2px;}
+    .htlDevServices__row__content{ width: 100%;}
+    .htlDevServices__row__content.alignRight{ text-align: left;}
+    .htlDevServices__row{ flex-direction: column; margin-bottom: 50px;}
+    .htlDevServices__row.reverse{ flex-direction: column-reverse;}
+    .htlDevServices__row__icon{ flex: 1; width: 100%; margin-bottom: 30px; text-align: center;}
+    .htlDevServices__row__content h3{font-size: 28px; margin-bottom: 0;}
+    .htlDevServices__row__icon.alignRight{ text-align: center;}
+    .htlDevServices__row__content ul li{ font-size: 16px; margin-bottom: 10px;}
+    .htlDevServices__row__icon > img{ width: 30%;}
+
+    .ourHotels{ padding: 30px 20px;}
+    .ourHotelsRow{ flex-direction: column;}
+    .ourHotelsCol{ width: 100%; margin: 0 0 30px 0;}
+    .upcomingHotel{ padding: 30px 20px;}
+    .upcomingHotel h2{ font-size: 22px; line-height: 28px; margin-bottom: 50px;}
+    .upcomingHotel h2 span::after{ bottom: -10px; height: 2px;}
+    .ourHotelsCol__content{ padding: 20px;}
+    .ourHotelsCol__content h4{ font-size: 20px; margin-bottom: 10px;}
+    .ourHotelsCol__content p{ font-size: 16px;}
+
+    .awardContainer{ padding: 30px 20px;}
+    .awardContainer h2{ margin-bottom: 50px;}
+    .awardContainer h2 > img{ width: 140px;}
+    .awardRow{ flex-direction: column; margin-bottom: 0;}
+    .awardCol{ width: 100%; margin-bottom: 20px; padding: 20px;}
+    .awardCol h5{ font-size: 18px; line-height: 22px; margin-bottom: 10px;}
+    .awardCol p{ font-size: 16px; line-height: 24px;}
+    .awardContainer h3{ font-size: 24px; line-height: 30px; margin-bottom: 20px; padding-top: 30px;}
+
+    .careers{ padding: 80px 20px;}
+    .careers h2{ font-size: 20px;}
+    .btnDownload{ font-size: 20px; width: 230px; height: 60px;}
+
+    .contactUs{ padding: 30px 20px;}
+    .contactUsInner{ padding: 20px; flex-direction: column;}
+    .contactUsLeft{ width: 100%; margin-right: 0; margin-bottom: 30px;}
+    .contactUsLeft > img{ width: 190px; margin-bottom: 30px;}
+    .contactUsLeft p{ font-size: 16px; line-height: 26px;}
+    .frmRow{ margin-bottom: 20px;}
+    .textInput{ padding: 12px; font-size: 16px;}
+    .textArea{ height: 150px; font-size: 16px; padding: 12px;}
+    .btnSubmit{ width: 100%; height: 60px; font-size: 20px;}
+}
+
+@media (min-width:768px) and (max-width:1024px){
+    .homeBanner__inner{ padding: 100px 50px;}
+    .logo{ margin-bottom: 100px;}
+    .logo a{ width: 300px;}
+    .homeBanner__inner h2{ font-size: 38px; line-height: 46px; margin-bottom: 65px;}
+    .welcomeSection{ padding: 70px 50px;}
+    .welcomeSection h2{ font-size: 36px; line-height: 44px; margin-bottom: 100px;}
+    .welcomeSection h2 span::after{ bottom: -15px;}
+    .welcomeCont{ flex-direction: column;}
+    .welcomeLeft{ width: 100%;}
+    .welcomeLeft__imgCont{ border: 0; padding: 0;}
+    .welcomeLeft__imgCont > img{ width: 100%;}
+    .welcomeLeft__imgCont::before, 
+    .welcomeLeft__imgCont::after{ display: none;}
+    .welcomeRight{ width: 100%; margin-top: 0; margin-left: 0; padding: 50px;}
+    .ourMission{ padding: 70px 50px;}
+    .ourMission h2{ font-size: 36px; line-height: 44px; margin-bottom: 100px;}
+    .ourMission h2 span::after{ bottom: -15px;}
+    .ourMissionCont{ flex-direction: column-reverse;}
+    .ourMissionCont__right{ width: 100%;}
+    .ourMissionCont__right--img{ padding: 0; border: 0;}
+    .ourMissionCont__right--img > img{ width: 100%;}
+    .ourMissionCont__right--img::before, .ourMissionCont__right--img::after{ display: none;}
+    .ourMissionCont__left{ width: 100%; padding: 50px; margin-top: 0;}
+    .bottomSection{ padding: 70px 50px;}
+    .bottomSection__inner > span{ padding-top: 20px;}
+    .bottomSection__inner > span:nth-child(2){ padding: 32px 30px 0 30px;}
+    .bottomSection__inner > span:nth-child(2)::before, 
+    .bottomSection__inner > span:nth-child(2)::after{ height: 46px;}
+    .footer{ padding: 50px 30px;}
+
+    .headerBanner{ height: auto;}
+    .headerBanner__inner{ padding: 0 50px 200px 50px;}
+    .innerLogo{ padding: 100px 0;}
+    .headerBanner__inner h2{ font-size: 56px;}
+    .aboutSection{ padding: 70px 50px;}
+    .aboutCont{ flex-direction: column;}
+    .aboutContLeft{ width: 100%;}
+    .aboutContLeft__imgCont{ padding: 0; border: 0;}
+    .aboutContLeft__imgCont > img{ width: 100%;}
+    .aboutContLeft__imgCont::before, 
+    .aboutContLeft__imgCont::after{ display: none;}
+    .aboutContRight{ width: 100%; padding: 50px; margin-top: 0; margin-left: 0;}
+    .philosophy{ padding: 70px 50px;}
+    .philosophy h2{ font-size: 36px; line-height: 44px; margin-bottom: 100px;}
+    .philosophy h2 span::after{ bottom: -15px;}
+    .philosofyRow{ margin-bottom: 100px;}
+    .philosofyRow__img{ flex: 1;}
+    .philosofyRow h3{ font-size: 36px; margin-bottom: 15px;}
+    .ourTeam{ padding: 70px 50px;}
+    .ourTeam h2{ font-size: 36px; line-height: 44px; margin-bottom: 100px;}
+    .ourTeam h2 span::after{ bottom: -15px;}
+    .teamCol{ width: 30%;}
+    .teamCol__box{ height: 200px;}
+    .teamCol__box::before{ width: 100px; height: 2px; top: -15px;}
+    .teamCol__box::after{ width: 2px; height: 100px; right: -15px;}
+    .teamCol h4{ font-size: 16px;}
+    .teamCol h4 a::after{ border-width: 0 2px 2px 0; padding: 3px;}
+    .teamCol h5{ font-size: 14px;}
+    .partnerLogo{ padding: 70px 50px;}
+    .partnerLogo ul li{ margin: 0; padding: 0 15px;}
+
+    .hms{ padding: 70px 50px;}
+    .hms h2{ font-size: 36px; line-height: 44px; margin-bottom: 100px;}
+    .hms h2 span::after{ bottom: -15px;}
+    .hms__row__icon{ flex: 1;}
+    .hms__row__content h3{ font-size: 36px; margin-bottom: 15px;}
+    .serviceRow{ padding: 70px 50px;}
+    .htlDevServices{ padding: 70px 50px;}
+    .htlDevServices h2{ font-size: 36px; line-height: 44px; margin-bottom: 100px;}
+    .htlDevServices h2 span::after{ bottom: -15px;}
+    .htlDevServices__row__icon{ flex: 1;}
+    .htlDevServices__row__content h3{font-size: 36px; margin-bottom: 15px;}
+
+    .ourHotels{ padding: 70px 50px;}
+    .ourHotelsCol{ width: 46%; margin: 0 12px 30px 12px;}
+    .upcomingHotel{ padding: 70px 50px;}
+    .upcomingHotel h2{ font-size: 36px; line-height: 44px; margin-bottom: 100px;}
+    .upcomingHotel h2 span::after{ bottom: -15px;}
+    .ourHotelsCol__content{ padding: 20px;}
+    .ourHotelsCol__content h4{ font-size: 24px; margin-bottom: 10px;}
+    .ourHotelsCol__content p{ font-size: 18px;}
+
+    .awardContainer{ padding: 70px 50px;}
+    .awardContainer h2 > img{ width: 240px;}
+    .awardRow{ flex-direction: column; margin-bottom: 0;}
+    .awardCol{ width: 100%; margin-bottom: 30px; padding: 30px;}
+    .awardCol h5{ font-size: 28px; line-height: 32px; margin-bottom: 10px;}
+    .awardContainer h3{ font-size: 36px; line-height: 44px;}
+    .careers{ padding: 70px 50px;}
+
+    .contactUs{ padding: 50px 30px;}
+    .contactUsInner{ padding: 30px;}
+    .contactUsLeft{ width: 240px; margin-right: 50px;}
+    .frmRow{ margin-bottom: 30px;}
+    .textInput{ padding: 12px;}
+    .textArea{ height: 150px; padding: 12px;}
+
+    .philosofyRow__img > img,
+    .hms__row__icon > img,
+    .htlDevServices__row__icon > img{ width: 50%;}
+}
+	
+@media (min-width:768px) and (max-width:1024px) and (orientation:landscape){
+}
+
+@media (min-width:1280px) {
+.homeBanner__inner{ padding: 130px 150px 200px 150px;}
+ .wrapper{ padding: 0 50px;}   
+ .teamCol__box{ height: 300px;}
+ .ourHotelsCol{ width: 29%;}
+}
